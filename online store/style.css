@@ -1,0 +1,134 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+#navbar {
+  height: 50px;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.76);
+}
+#producte {
+  background-image: url(./assets/light-color-wall-zoom-background-marble-design-template-35f4e58b6b105e64a6b89f6b2042d643_screen.jpg);
+}
+#producte p {
+  color: black;
+  background-color: white;
+}
+.icon {
+  position: absolute;
+}
+.trash {
+  position: absolute;
+}
+#narutocollection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2% 10%;
+}
+.naruto {
+  margin-bottom: 2%;
+  border-radius: 2%;
+}
+.naruto img {
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+.naruto div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.naruto div {
+  padding: 4%;
+}
+.naruto div p {
+  color: gray;
+}
+.naruto div button {
+  color: white;
+  background-color: rgb(0, 153, 255);
+  padding: 2%;
+}
+.naruto:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+#tokyoghoulcollection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2% 10%;
+}
+.tokyo {
+  margin-bottom: 2%;
+  border-radius: 2%;
+}
+.tokyo img {
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+.tokyo div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tokyo div {
+  padding: 4%;
+}
+.tokyo div p {
+  color: gray;
+}
+.tokyo div button {
+  color: white;
+  background-color: rgb(0, 153, 255);
+  padding: 2%;
+}
+.tokyo:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+#demonslayercollection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2% 10%;
+}
+.demonslayer {
+  margin-bottom: 2%;
+  border-radius: 2%;
+}
+.demonslayer img {
+  border-top-left-radius: 2%;
+  border-top-right-radius: 2%;
+}
+.demonslayer div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.demonslayer div {
+  padding: 4%;
+}
+.demonslayer div p {
+  color: gray;
+}
+.demonslayer div button {
+  color: white;
+  background-color: rgb(0, 153, 255);
+  padding: 2%;
+}
+.demonslayer:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer p samp {
+  color: aqua;
+}
